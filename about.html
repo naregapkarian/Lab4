@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 4</title>
+        <style>
+            
+            * {
+                margin: 0px;
+                padding: 0px;
+                position: relative;    
+            }
+            body, html {
+                width: 100vw;
+                height: 100vh;
+            }
+            h2 {
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .box-shadow {
+                -webkit-box-shadow: 0px 0px 17px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 17px -7px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 17px -7px rgba(0,0,0,0.75);
+            }
+            .main-container-grid {
+                display: grid;
+                grid-template-rows: 1fr 13fr 1fr;
+                height: 100%;
+                grid-row-gap: 1em;
+            }
+            .r1, .r3 {
+                background-color: #CCC;
+                padding: 1em;
+                align-items: center;
+            }
+            .r3 {
+                text-align: center;
+                align-items: center;
+            }
+            .r2 {
+                height: 100%;
+                background-color: #f1f1f1;
+            }
+            .one-column {
+                display: grid;
+                background-color: #FFF;
+                grid-column-gap: 1em;
+            }
+            .c1 {
+                min-width: 200px;
+            }
+            .c1, .c3 {
+                background-color:#f4f4f4;
+            }
+            .txt-center {
+                text-align: center;
+                margin: 15px auto 0px;
+                border-bottom: 1px solid #a8a7a7;
+                padding-bottom: 15px;
+            }
+            .left-nav {
+                list-style-type: none;
+
+            }
+            .padding-title {
+                margin-bottom: 25px;
+                margin-top: 40px;
+            } 
+            .padding {
+                margin-bottom: 15px;
+                margin-top: 15px;
+            }
+            .left-nav > li > a {
+                display: block;
+                padding: 15px 0px 15px 30px;
+                background-color: #f4f4f4;
+                padding-left: 30px;
+                font-weight: bold;
+                text-decoration: none;
+                transition-duration: 0.7s;
+            }
+            .left-nav > li > a:hover {
+                background-color: #8d8d8d;
+            }
+            .c2 {
+                padding: 40px 20%;
+                height: 100%;
+                grid-gap: 1em;
+            }
+            .h2-content {
+                grid-column: 1/5;
+                height: 21px;
+                width: 100%;
+            }
+            .c2 > img {
+                width: 100%;
+                align-self: center;
+                max-height: 130px;
+
+            }
+            .contact-form {
+                width: 500px;
+                height: 500px;
+                margin: 100px auto;
+            }
+            .contact-input {
+                width: 91%;
+                padding: 15px;
+                margin: 5px;
+            }
+            .submit-button {
+                padding: 10px 25px;
+                background-color: #CCC;
+                float: right;
+                margin-top: 12px;
+            }
+            .error-message {
+                color: crimson;
+                padding: 7px;
+                display: block;
+                margin: 5px;
+                display: none;
+            }
+            .back-button {
+                padding: 7px 16px;
+                background-color: #CCC;
+                float: right;
+                margin-bottom: 15px;
+            }
+            .back-button:hover {
+                background-color: #f1f1f1;
+            }
+        </style>
+    </head>
+    <body class="main-container-grid">
+        <div class="r1 box-shadow">
+            <h2>Nareg Apkarian</h2>
+        </div>
+        <div class="r2 one-column">
+            <div class="c2 padding">
+                <a href="./index.html" class="back-button">Back</a>
+                <h2 class="padding-title">Learn About Us</h2>
+                <p class="padding">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="padding">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="padding">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="padding">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            </div>
+        </div>
+        <div class="r3">
+            Copyright 2021 - Created by Nareg Apkarian
+        </div>
+    </body>
+</html>
